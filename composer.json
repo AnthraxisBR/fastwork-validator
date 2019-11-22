@@ -1,0 +1,23 @@
+{
+    "name": "anthraxisbr/fastwork-validator",
+    "authors": [
+        {
+            "name": "Gabriel Mourão",
+            "email": "gabrielmouraodemelo@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^4.0@dev",
+        "phpunit/phpunit": "^8.5@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "AnthraxisBR\\FastWorkValidator\\": "src/",
+            "AnthraxisBR\\Tests\\" : "tests/"
+        },
+        "psr-0": {
+            "AnthraxisBR\\FastWorkValidator\\": "src/",
+            "AnthraxisBR\\Tests\\" : "tests/"
+        }
+    }
+}
